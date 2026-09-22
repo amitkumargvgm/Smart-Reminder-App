@@ -23,8 +23,12 @@ import java.util.Locale
 class MainActivity : ComponentActivity() {
 
     override fun attachBaseContext(newBase: Context) {
-        val prefs = AppPreferences(newBase)
-        val context = LocaleHelper.setAppLocale(newBase, prefs.selectedLanguageCode)
+        val context = try {
+            val prefs = AppPreferences(newBase)
+            LocaleHelper.setAppLocale(newBase, prefs.selectedLanguageCode)
+        } catch (e: Exception) {
+            newBase
+        }
         super.attachBaseContext(context)
     }
 
