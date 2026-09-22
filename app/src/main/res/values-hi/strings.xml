@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">स्मार्ट रिमाइंडर</string>
+    <string name="app_tagline">स्मार्ट रिमाइंडर, आसान ज़िंदगी</string>
+    <string name="home_prompt">बताइए आप क्या याद रखना चाहते हैं…</string>
+    
+    <!-- Action buttons -->
+    <string name="btn_voice">बोलकर जोड़ें</string>
+    <string name="btn_add_reminder">नया रिमाइंडर</string>
+    <string name="btn_save">रिमाइंडर सेव करें</string>
+    <string name="btn_cancel">रद्द करें</string>
+    <string name="btn_confirm">पुष्टि करें</string>
+    <string name="btn_close">बंद करें</string>
+    <string name="btn_allow">अनुमति दें</string>
+    <string name="btn_test_alert">अलर्ट टेस्ट करें</string>
+    <string name="btn_edit">बदलें</string>
+    <string name="btn_delete">हटाएं</string>
+    <string name="btn_mark_done">पूरा हुआ</string>
+    <string name="btn_completed">पूर्ण</string>
+    <string name="btn_get_started">शुरू करें</string>
+    <string name="btn_remove_ads">विज्ञापन हटाएं (प्रीमियम)</string>
+    <string name="btn_share_app">ऐप शेयर करें</string>
+    <string name="btn_rate_app">हमें 5 स्टार दें</string>
+    
+    <!-- Sections / Tabs -->
+    <string name="section_today">आज</string>
+    <string name="section_upcoming">आगामी</string>
+    <string name="section_completed">पूर्ण</string>
+    <string name="section_history">रिमाइंडर इतिहास</string>
+    <string name="tab_all">सभी</string>
+    <string name="tab_important">ज़रूरी</string>
+    <string name="stat_overdue">अतिदेय</string>
+    
+    <!-- Snooze options -->
+    <string name="snooze_10m">10 मिनट बाद</string>
+    <string name="snooze_30m">30 मिनट बाद</string>
+    <string name="snooze_1h">1 घंटा बाद</string>
+    <string name="snooze_tomorrow">कल याद दिलाएं</string>
+    
+    <!-- Categories -->
+    <string name="category_personal">व्यक्तिगत</string>
+    <string name="category_study">पढ़ाई</string>
+    <string name="category_work">काम</string>
+    <string name="category_bills">बिल / भुगतान</string>
+    <string name="category_shopping">खरीदारी</string>
+    <string name="category_family">परिवार</string>
+    <string name="category_health">स्वास्थ्य</string>
+    <string name="category_other">अन्य</string>
+    
+    <!-- Priorities -->
+    <string name="priority_low">सामान्य</string>
+    <string name="priority_medium">मध्यम</string>
+    <string name="priority_high">महत्वपूर्ण</string>
+    <string name="priority_urgent">अति आवश्यक</string>
+    
+    <!-- Recurrence -->
+    <string name="repeat_once">एक बार</string>
+    <string name="repeat_daily">रोज़ाना</string>
+    <string name="repeat_weekdays">सोमवार - शुक्रवार</string>
+    <string name="repeat_weekly">हर हफ़्ते</string>
+    <string name="repeat_monthly">हर महीने</string>
+    <string name="repeat_yearly">हर साल</string>
+    
+    <!-- Search & Placeholders -->
+    <string name="search_placeholder">रिमाइंडर खोजें…</string>
+    <string name="quick_add_hint">जैसे: कल शाम 7 बजे मां को फोन करना है</string>
+    <string name="reminder_title_label">रिमाइंडर का नाम</string>
+    <string name="reminder_title_hint">आपको क्या याद रखना है?</string>
+    <string name="notes_label">नोट्स / विवरण (वैकल्पिक)</string>
+    <string name="notes_hint">अतिरिक्त विवरण लिखें…</string>
+    <string name="schedule_time_label">तारीख और समय</string>
+    <string name="category_label">श्रेणी</string>
+    <string name="priority_label">प्राथमिकता</string>
+    <string name="repeat_label">दोहराव</string>
+    <string name="notification_toggle_label">अलार्म और नोटिफिकेशन</string>
+    <string name="notification_toggle_sub">समय होने पर रिंग और अलर्ट करें</string>
+    
+    <!-- Voice dialog -->
+    <string name="voice_listening">सुन रहे हैं… अपना रिमाइंडर बोलें</string>
+    <string name="voice_example">जैसे बोलें: \"कल शाम 8 बजे पापा को कॉल करना याद दिलाओ\"</string>
+    <string name="voice_tap_to_speak">माइक दबाकर बोलें</string>
+    <string name="voice_not_supported">इस डिवाइस पर आवाज़ पहचान समर्थित नहीं है</string>
+    
+    <!-- Language & Settings -->
+    <string name="settings_title">सेटिंग्स और विकल्प</string>
+    <string name="choose_language">भाषा चुनें</string>
+    <string name="theme_title">थीम</string>
+    <string name="theme_system">सिस्टम अनुसार</string>
+    <string name="theme_light">लाइट मोड</string>
+    <string name="theme_dark">डार्क मोड</string>
+    <string name="faq_title">अक्सर पूछे जाने वाले सवाल (FAQ)</string>
+    
+    <!-- FAQ Content -->
+    <string name="faq_q1">रिमाइंडर कैसे बनाएं?</string>
+    <string name="faq_a1">आप होम स्क्रीन पर सामान्य भाषा में लिख सकते हैं (जैसे \"कल शाम 7 बजे बिजली का बिल भरना\"), या 🎤 माइक दबाकर बोल सकते हैं, या \"+ नया रिमाइंडर\" बटन दबाकर तारीख और समय चुन सकते हैं।</string>
+    
+    <string name="faq_q2">दोहराने वाला (रिकरिंग) रिमाइंडर कैसे लगाएं?</string>
+    <string name="faq_a2">रिमाइंडर बनाते समय \"दोहराव\" विकल्प में रोज़ाना, कार्यदिवस, साप्ताहिक, मासिक या वार्षिक चुनें। पूरा होने पर अगला रिमाइंडर अपने आप तय हो जाता है!</string>
+    
+    <string name="faq_q3">वॉइस रिमाइंडर कैसे इस्तेमाल करें?</string>
+    <string name="faq_a3">होम स्क्रीन पर 🎤 वॉइस बटन दबाएं और साफ़ आवाज़ में बोलें, जैसे: \"कल शाम 8 बजे पापा को कॉल याद दिलाएं\"। ऐप अपने आप समय और काम पहचान लेगा।</string>
+    
+    <string name="faq_q4">भाषा कैसे बदलें?</string>
+    <string name="faq_a4">ऊपर सेटिंग्स (⚙️) आइकन पर टैप करें और अपनी पसंदीदा भाषा (हिंदी, पंजाबी, ओडिया, गुजराती, बंगाली, तेलुगु, तमिल आदि) चुनें। पूरी ऐप तुरंत बदल जाएगी।</string>
+    
+    <string name="faq_q5">क्या यह बिना इंटरनेट (ऑफ़लाइन) चलता है?</string>
+    <string name="faq_a5">हाँ, पूरी तरह! सभी रिमाइंडर आपके फोन के सुरक्षित डेटाबेस में रहते हैं और सिस्टम अलार्म से बजते हैं। इंटरनेट की कोई ज़रूरत नहीं।</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">कभी कुछ न भूलें</string>
+    <string name="onboarding_desc_1">स्मार्ट रिमाइंडर आपके रोज़ाना के काम, बिल और पारिवारिक जिम्मेदारियों को आसान बनाता है।</string>
+    <string name="onboarding_title_2">अपनी आवाज़ में बोलें</string>
+    <string name="onboarding_desc_2">बस बोलें: \"कल शाम 7 बजे मां को फोन करना याद दिलाएं\" और रिमाइंडर तुरंत सेट हो जाएगा।</string>
+    <string name="onboarding_title_3">ऑफ़लाइन और अपनी भाषा में</string>
+    <string name="onboarding_desc_3">फ़ोन रीस्टार्ट होने पर भी चालू रहता है और 8 भारतीय भाषाओं में काम करता है।</string>
+    <string name="btn_skip">छोड़ें</string>
+    <string name="btn_next">आगे</string>
+    
+    <!-- Empty State & Notifications -->
+    <string name="empty_today">आज कोई रिमाइंडर नहीं है!</string>
+    <string name="empty_upcoming">आगे कोई रिमाइंडर नहीं है</string>
+    <string name="empty_completed">अभी तक कोई पूर्ण रिमाइंडर नहीं है</string>
+    <string name="empty_all">कोई रिमाइंडर नहीं मिला</string>
+    <string name="empty_helper">\"+ नया रिमाइंडर\" दबाएं या 🎤 बोलकर जोड़ें</string>
+    <string name="notification_permission_warn">समय पर अलर्ट पाने के लिए नोटिफिकेशन चालू करें!</string>
+    <string name="ad_banner_test">📢 प्रायोजित विज्ञापन (टेस्ट आईडी)</string>
+</resources>

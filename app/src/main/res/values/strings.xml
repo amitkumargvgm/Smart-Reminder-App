@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Smart Reminder</string>
+    <string name="app_tagline">Smart Reminder, Easy Life</string>
+    <string name="home_prompt">Tell me what you want to remember…</string>
+    
+    <!-- Action buttons -->
+    <string name="btn_voice">Voice</string>
+    <string name="btn_add_reminder">Add Reminder</string>
+    <string name="btn_save">Save Reminder</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_allow">Allow</string>
+    <string name="btn_test_alert">Test Alert</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_mark_done">Mark Done</string>
+    <string name="btn_completed">Completed</string>
+    <string name="btn_get_started">Get Started</string>
+    <string name="btn_remove_ads">Remove Ads (Premium)</string>
+    <string name="btn_share_app">Share App</string>
+    <string name="btn_rate_app">Rate Us 5 Stars</string>
+    
+    <!-- Sections / Tabs -->
+    <string name="section_today">Today</string>
+    <string name="section_upcoming">Upcoming</string>
+    <string name="section_completed">Completed</string>
+    <string name="section_history">Reminder History</string>
+    <string name="tab_all">All</string>
+    <string name="tab_important">Important</string>
+    <string name="stat_overdue">Overdue</string>
+    
+    <!-- Snooze options -->
+    <string name="snooze_10m">Snooze 10 min</string>
+    <string name="snooze_30m">Snooze 30 min</string>
+    <string name="snooze_1h">Snooze 1 hour</string>
+    <string name="snooze_tomorrow">Snooze Tomorrow</string>
+    
+    <!-- Categories -->
+    <string name="category_personal">Personal</string>
+    <string name="category_study">Study</string>
+    <string name="category_work">Work</string>
+    <string name="category_bills">Bills</string>
+    <string name="category_shopping">Shopping</string>
+    <string name="category_family">Family</string>
+    <string name="category_health">Health</string>
+    <string name="category_other">Other</string>
+    
+    <!-- Priorities -->
+    <string name="priority_low">Low</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_high">High</string>
+    <string name="priority_urgent">Urgent</string>
+    
+    <!-- Recurrence -->
+    <string name="repeat_once">Once</string>
+    <string name="repeat_daily">Daily</string>
+    <string name="repeat_weekdays">Mon - Fri</string>
+    <string name="repeat_weekly">Weekly</string>
+    <string name="repeat_monthly">Monthly</string>
+    <string name="repeat_yearly">Yearly</string>
+    
+    <!-- Search & Placeholders -->
+    <string name="search_placeholder">Search reminders…</string>
+    <string name="quick_add_hint">Type e.g. Call Mom tomorrow 7 PM</string>
+    <string name="reminder_title_label">Reminder Title</string>
+    <string name="reminder_title_hint">What do you want to remember?</string>
+    <string name="notes_label">Notes / Details (optional)</string>
+    <string name="notes_hint">Add extra details or instructions…</string>
+    <string name="schedule_time_label">Schedule Date &amp; Time</string>
+    <string name="category_label">Category</string>
+    <string name="priority_label">Priority</string>
+    <string name="repeat_label">Repeat Frequency</string>
+    <string name="notification_toggle_label">Push Alarm Notification</string>
+    <string name="notification_toggle_sub">Ring alarm &amp; notify when due</string>
+    
+    <!-- Voice dialog -->
+    <string name="voice_listening">Listening… Speak your reminder</string>
+    <string name="voice_example">Try saying: \"Tomorrow 8 PM, remind me to call Dad\"</string>
+    <string name="voice_tap_to_speak">Tap microphone to speak</string>
+    <string name="voice_not_supported">Speech recognition is not supported on this device</string>
+    
+    <!-- Language & Settings -->
+    <string name="settings_title">Settings &amp; Options</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="theme_title">Appearance</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="faq_title">Frequently Asked Questions (FAQ)</string>
+    
+    <!-- FAQ Content -->
+    <string name="faq_q1">How to create a reminder?</string>
+    <string name="faq_a1">You can type in the top bar using natural language (e.g. \"Call Mom tomorrow at 7 PM\"), tap the 🎤 Voice button to speak, or tap \"+ Add Reminder\" to pick an exact date, time, category, and priority.</string>
+    
+    <string name="faq_q2">How to create recurring reminders?</string>
+    <string name="faq_a2">When creating or editing a reminder, choose the \"Repeat Frequency\" option. You can set it to Daily, Mon-Fri, Weekly, Monthly, or Yearly. When you complete a recurring reminder, the next occurrence is automatically scheduled for you!</string>
+    
+    <string name="faq_q3">How to use voice reminders?</string>
+    <string name="faq_a3">Tap the 🎤 Voice button on the home screen. Speak clearly, for example: \"Tomorrow 8 PM, remind me to call Dad\" or \"Pay electricity bill on Friday 10 AM\". The app automatically understands the date, time, and category.</string>
+    
+    <string name="faq_q4">How to change language?</string>
+    <string name="faq_a4">Tap the Settings (⚙️) icon in the top header and select your preferred language: English, Hindi, Punjabi, Odia, Gujarati, Bengali, Telugu, or Tamil. The entire app will switch instantly.</string>
+    
+    <string name="faq_q5">Does it work offline?</string>
+    <string name="faq_a5">Yes, 100%! All your reminders are saved locally in the device database (Room) and scheduled through the native Android Alarm system. No internet connection is needed.</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Never Forget What Matters</string>
+    <string name="onboarding_desc_1">Smart Reminder keeps your daily tasks, bills, and family commitments organized effortlessly.</string>
+    <string name="onboarding_title_2">Natural Language &amp; Voice</string>
+    <string name="onboarding_desc_2">Simply speak or type naturally: \"Remind me to call Mom tomorrow at 7 PM\". We figure out the time for you!</string>
+    <string name="onboarding_title_3">Offline &amp; In Your Language</string>
+    <string name="onboarding_desc_3">Works offline, reschedules after device reboot, and supports 8 Indian languages.</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_next">Next</string>
+    
+    <!-- Empty State & Notifications -->
+    <string name="empty_today">No reminders due today!</string>
+    <string name="empty_upcoming">No upcoming reminders</string>
+    <string name="empty_completed">No completed reminders yet</string>
+    <string name="empty_all">No reminders found</string>
+    <string name="empty_helper">Tap \"+ Add Reminder\" or speak with 🎤 Voice</string>
+    <string name="notification_permission_warn">Enable notifications so you never miss a reminder!</string>
+    <string name="ad_banner_test">📢 Sponsored Ad (Test ID: ca-app-pub-3940256099942544/6300978111)</string>
+
+    <!-- Additional UI string aliases -->
+    <string name="cat_all">All Categories</string>
+    <string name="edit_reminder">Edit Reminder</string>
+    <string name="new_reminder">New Smart Reminder</string>
+    <string name="hint_reminder_title">What do you want to be reminded of?</string>
+    <string name="hint_description">Add any extra instructions or link…</string>
+    <string name="schedule_time">Schedule Time</string>
+    <string name="push_notification">Push Alarm Notification</string>
+    <string name="test_alert">Test Alert</string>
+    <string name="search_hint">Search your reminders…</string>
+    <string name="no_reminders_match">No reminders matching</string>
+    <string name="no_reminders">No reminders here</string>
+    <string name="no_reminders_sub">Type e.g. \'Pay wifi bill tomorrow at 6pm\' or tap the quick preset buttons above!</string>
+    <string name="share_subject">Check out Smart Reminder app</string>
+    <string name="share_message">Manage all your daily reminders easily with Smart Reminder! Natural language scheduling, recurring alerts &amp; 8 languages.</string>
+
+    <!-- Navigation & Members -->
+    <string name="nav_reminders">Reminders</string>
+    <string name="nav_members">Members</string>
+    <string name="nav_history">Past History</string>
+    <string name="nav_future">Future Plans</string>
+    
+    <string name="members_title">Members &amp; Family Tasks</string>
+    <string name="members_subtitle">Assign reminders to family, friends, or team members</string>
+    <string name="btn_add_member">Add Member</string>
+    <string name="member_name_label">Member Name</string>
+    <string name="member_relation_label">Relationship / Role</string>
+    <string name="member_phone_label">Phone Number (Optional)</string>
+    <string name="member_notes_label">Notes</string>
+    <string name="member_assigned_reminders">Assigned Reminders</string>
+    <string name="no_members">No members added yet</string>
+    <string name="no_members_sub">Add members to delegate and track tasks for family or teammates</string>
+    <string name="assign_to_member">Assign to Member (Optional)</string>
+    <string name="none_member">None (Personal)</string>
+
+    <!-- History & Future Planner -->
+    <string name="history_title">Past Task History</string>
+    <string name="history_subtitle">Complete local log of all finished reminders and tasks</string>
+    <string name="history_completed_at">Completed</string>
+    <string name="btn_reopen">Reopen Task</string>
+    <string name="btn_clear_history">Clear History</string>
+    
+    <string name="future_title">Future Plans &amp; Milestones</string>
+    <string name="future_subtitle">Long-term roadmap of your upcoming tasks and goals</string>
+    <string name="future_days_left">days left</string>
+    <string name="local_storage_badge">100% Offline • Saved privately on your phone only</string>
+</resources>

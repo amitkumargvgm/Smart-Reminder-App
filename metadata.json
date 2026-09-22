@@ -1,0 +1,6 @@
+{
+  "name": "Smart Reminder",
+  "description": "A smart reminder app with quick natural language scheduling, smart categories, recurring alerts, priorities, and intuitive task management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
